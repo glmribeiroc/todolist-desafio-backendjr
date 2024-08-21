@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: desafiotodomanager
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/todolistmanager
+    username: admin
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
