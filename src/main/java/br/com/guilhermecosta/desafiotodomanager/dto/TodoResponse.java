@@ -8,7 +8,7 @@ import br.com.guilhermecosta.desafiotodomanager.entity.Todo;
 import br.com.guilhermecosta.desafiotodomanager.entity.TodoStatus;
 
 public record TodoResponse(Long id, String title, String description, boolean isFavorite, LocalDateTime completionDate,
-    LocalDateTime expectedcCompletionDate, TodoStatus status, LocalDateTime createdAt, LocalDateTime updatedAt,
+    LocalDateTime expectedCompletionDate, TodoStatus status, LocalDateTime createdAt, LocalDateTime updatedAt,
     List<SubTaskResponse> subTasks) {
   public TodoResponse(Todo todo) {
     this(

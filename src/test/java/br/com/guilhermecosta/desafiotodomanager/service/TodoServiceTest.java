@@ -77,7 +77,7 @@ public class TodoServiceTest {
 
     assertThat(sut.title()).isEqualTo(updateRequest.title());
     assertThat(sut.description()).isEqualTo(updateRequest.description());
-    assertThat(sut.expectedcCompletionDate()).isEqualTo(updateRequest.expectedCompletionDate());
+    assertThat(sut.expectedCompletionDate()).isEqualTo(updateRequest.expectedCompletionDate());
   }
 
   @Test

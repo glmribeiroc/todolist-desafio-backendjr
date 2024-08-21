@@ -66,11 +66,11 @@ public class Todo {
   public Todo() {
   }
 
-  public Todo(String title, String description, LocalDateTime expectedcCompletionDate, boolean isFavorite,
+  public Todo(String title, String description, LocalDateTime expectedCompletionDate, boolean isFavorite,
       TodoList todoList) {
     this.title = title;
     this.description = description;
-    this.expectedCompletionDate = expectedcCompletionDate;
+    this.expectedCompletionDate = expectedCompletionDate;
     this.isFavorite = isFavorite;
     this.todoList = todoList;
     this.status = TodoStatus.PENDING;
@@ -124,8 +124,8 @@ public class Todo {
     return expectedCompletionDate;
   }
 
-  public void setExpectedCompletionDate(LocalDateTime expectedcCompletionDate) {
-    this.expectedCompletionDate = expectedcCompletionDate;
+  public void setExpectedCompletionDate(LocalDateTime expectedCompletionDate) {
+    this.expectedCompletionDate = expectedCompletionDate;
   }
 
   public TodoStatus getStatus() {
